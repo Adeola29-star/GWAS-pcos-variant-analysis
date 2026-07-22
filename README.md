@@ -71,7 +71,7 @@ The study used genome-wide genotyping arrays with imputed SNP data.
 
 ## R Package
 - qqman
-- 
+  
 ---
 
 # GWAS Summary Statistics
