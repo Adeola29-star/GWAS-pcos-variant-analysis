@@ -164,9 +164,9 @@ The close genomic proximity of these variants suggests that they may represent a
 
 # Genomic Region Investigation and Variant Interpretation
 
-Because the extracted summary statistics contained positional markers rather than rsIDs, direct variant annotation was limited.
+Because the downloaded GWAS summary statistics contained only 12 columns (MarkerName, Allele1, Allele2, Freq1, Effect, StdErr, Pvalue, HetPVal, TotalSampleSize, EffSampleSize, chr, and pos), direct variant annotation was not possible. The dataset contained genomic positions but did not include rsIDs, mapped genes, or functional annotations required for standard variant annotation workflows.
 
-The strongest association region was investigated using the Ensembl Genome Browser (GRCh38).
+To biologically interpret the significant association signals, the published mapped genes from the corresponding GWAS Catalog study (GCST007089) were downloaded as a TSV file and used for comparison with the significant genomic regions identified in this analysis. In addition, the strongest chromosome 2 association region was explored using the Ensembl Genome Browser (GRCh38) to identify genes and regulatory elements within that locus.
 
 The region contained genes and regulatory transcripts including:
 
