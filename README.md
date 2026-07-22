@@ -66,12 +66,12 @@ The study used genome-wide genotyping arrays with imputed SNP data.
 - GWAS Catalog
 - Ensembl Genome Browser
 
-## R Packages
+## Data Processing
+- Base R
 
-- data.table
+## R Package
 - qqman
-- ggplot2
-
+- 
 ---
 
 # GWAS Summary Statistics
